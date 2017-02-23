@@ -1,2 +1,32 @@
-                                git命令
-    1.   -- 
+                        git命令
+
+	
+    1.git init 初始化git
+
+    2.git add <file> #将工作文件修改提交到缓存区
+
+    3.git add .      #将所有修改的文件提交到缓存区
+
+    4.git rm <file>  #将版本库删除文件
+
+    5.git reset -- . #恢复最近一次提交过的状态 放弃上次提交的所有修改
+
+    6.git diff <file> # 比较当前文件和暂存区文件差异 git diff
+
+    7.git diff <id1><id1><id2> # 比较两次提交之间的差异
+
+    8.git diff <branch1>..<branch2> # 在两个分支之间比较
+
+    9.git diff --staged # 比较暂存区和版本库差异
+
+    10.git diff --cached # 比较暂存区和版本库差异
+
+    11.git diff --stat # 仅仅比较统计信息    
+    
+    
+    
+    1. git 同步远程仓库到本地
+       git fetch origin master  
+       git log -p master..origin/master  查看仓库文件差异
+       git merge origin/master
+       
