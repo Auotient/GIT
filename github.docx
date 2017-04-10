@@ -31,3 +31,10 @@
        git log -p master..origin/master  查看仓库文件差异
        git merge origin/master
        
+    2.git提交 到 github
+      git remote rm origin   //报错  fatal: remote origin already exists.
+      git  remote add origin https://github.com/Auotient/android-system-note.git
+      git push -u origin master
+      //往后再次提交该仓库  
+      git push  origin master
+      
