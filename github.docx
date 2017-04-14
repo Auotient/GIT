@@ -37,4 +37,5 @@
       git push -u origin master
       //往后再次提交该仓库  
       git push  origin master
-      
+     3.打印patch文件 
+       git format-patch HEAD^ <==最近的1次commit的patch
